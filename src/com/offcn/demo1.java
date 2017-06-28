@@ -23,7 +23,8 @@ public class demo1 {
 
 	public static void main(String[] args) throws IOException {
 		PdfWriter writer=new PdfWriter("d:\\test\\demo1.pdf");
-		//hello github
+		//*********************************************************************************
+		//*********************************************************************************
        PdfDocument pdfdocument=new PdfDocument(writer);
        //获取文档属性对象
       PdfDocumentInfo pdfdocinfo= pdfdocument.getDocumentInfo();
